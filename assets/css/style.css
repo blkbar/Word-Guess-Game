@@ -1,0 +1,35 @@
+#abe {
+    /* display: block; */
+    top: 10px;
+    margin: 10px;
+    margin-right: 50px;
+    width: 300px;
+    height: 200px;
+    /* float: left; */
+}
+#game-space {
+    top: 300Px;
+    margin: 10px;
+    position: absolute;
+    border:1px solid black;
+    width: 675px;
+    height: 200px;
+    font-size: 16px;
+    line-height: 24px;    
+    
+}
+#start {
+    font-size: 30px;
+    
+}
+
+#anc {
+    top: 10px; 
+    position: absolute;
+    left: 400px;
+    visibility: hidden;
+}
+#display-word {
+    text-align: center;
+    color: blue;
+}

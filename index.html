@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> 
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Word guess game</title>
+</head>
+<body>
+   
+    <div id="abe">
+            <img class="abePix" src="assets/images/abeLincoln.jpg"  alt="Abraham Lincoln">
+    </div>
+
+    <div id="anc">
+            <img class="ancPix" src="assets/images/arlington2.jpg" width="290px" height="237px"  alt="Arlington National Cemetary"> -->
+            <!-- How to play taps when player loses at time when Arlington image is presented   -->
+        </div>
+        
+
+    <div id="game-space">
+        <h1 id="start">
+            Hit any key to start.
+        </h1>
+        <p id="display-word">
+            displayword surrogate
+        </p>
+        <br>
+        <p id="show-guesses">
+            Enter a letter: <input type="text" size="1"  id="show-guesses" onkeyup="captureKey()">
+        </p>
+        <p>
+            Guesses: 
+        </p>
+        <br>
+        <p id="wins">Wins:</p>
+        <p id="loss">Losses:</p>
+        <br>
+
+    </div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game-1.js"></script>
+    
+
+    
+</body>
+</html>
